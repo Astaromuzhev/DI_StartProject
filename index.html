@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="STYLES/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,300;1,400;1,600&display=swap" rel="stylesheet">
+    <title>Anna Staromuzhev</title>
+</head>
+<body>
+    <!--Main Menu-->
+    <header>
+        <nav class="main_menu_navigation">
+            <a href="#profile">Profile</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#personal">Personal</a>
+            <a href="#prof_expir">Professional Expirience</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+        </nav> 
+        <span class="openbtn" onclick="openNav()">&#9776; </span>
+        <nav id="myNav" class="overlay">
+            <a href="javascript:;" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="#profile" onclick="closeNav()">Profile</a>
+                <a href="#portfolio" onclick="closeNav()">Portfolio</a>
+                <a href="#personal" onclick="closeNav()">Personal</a>
+                <a href="#prof_expir" onclick="closeNav()">Professional Expirience</a>
+                <a href="#education" onclick="closeNav()">Education</a>
+                <a href="#skills" onclick="closeNav()">Skills</a>
+            </div>
+        </nav>
+    </header>
+    <!--Main Content-->
+    <main id="home">
+        <!--Profile-->
+        <section id="profile" class="background_grey sect_h_300">
+            <section class="section_left_75 margin_1_5">
+                <div id="profile_text">
+                    <br>
+                    <b>Anna Staromuzhev</b>
+                    <br>
+                    <br>
+                        I'm a successful <b>Oracle Siebel CRM
+                            Architect</b>. In order to expand my expertise, I am looking for a <b>Python developer</b>
+                        position. I have more than 13 years experience in Siebel requirements analysis, developing and
+                        architecture design. Besides development, I have experience in presale activities and team
+                        mentoring. My great experience and understanding of development process will bring great
+                        contribution to the team.
+                </div>
+            </section>
+            <section class="aside_right_30">
+                <img src="images/profile_photo.jpg" alt="Photo Anna Staromuzhev" class="board_radius_120_20_120_20"
+                    height="300">
+            </section>
+        </section>
+        <section id="portfolio" class="sect_h_100 margin_1_5">
+            <h2>Portfolio</h2>
+            <!--Here will be projects, Now links to Google and Wiki-->
+            <a href="http://google.com" target="_blank">Developer.Institute PrelimProject</a>
+            <br>
+            <a href="http://wikipedia.org" target="_blank">Developer.Institute FinalProject</a>
+        </section>
+        <!--Personal-->
+        <section id="personal" class="sect_h_230 background_grey">
+            <section class="section_left_75 margin_1_5">
+                <h2>Personal</h2>
+                <table id="personal_table">
+                    <tr>
+                        <th>
+                            Date Of Birth
+                        </th>
+                        <!--To show I know how set stylein HTML :-) -->
+                        <th style="width:60px">
+                        </th>
+                        <th>
+                            02/04/1985
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            Location
+                        </th>
+                        <th>
+                        </th>
+                        <th>
+                            Tel-Aviv, Israel
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            Mobile
+                        </th>
+                        <th>
+                        </th>
+                        <th>
+                            +972545970102
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            Email
+                        </th>
+                        <th>
+                        </th>
+                        <th>
+                            <a href="mailto:annastaromuzhev@gmail.com">annastaromuzhev@gmail.com</a>
+                        </th>
+                    </tr>
+                </table>
+            </section>
+        </section>
+        <!--Professional Expirience-->
+        <section id="prof_expir" class="sect_h_650">
+            <section class="margin_1_5">
+                <h2>Professional Expirience</h2>
+                <table class="table_small_font">
+                    <tr>
+                        <th style="width:250px">
+                            Sep 2022 - May 2023
+                        </th>
+                        <th>
+                            <b>
+                                <i>
+                                    Oracle Siebel CRM Developer
+                                    <br>
+                                    VISA CAL (Israel)
+                                </i>
+                            </b>
+                            <br>
+                            Take part in Project Siebel Upgrade from HI to OpenUI
+                            <br>
+                            <ul>
+                                <li>Regression testing and GAP analisys</li>
+                                <li>Researching decision fitted for HI and OpenUI at the same envirenment</li>
+                                <li>System development and customization (CSS, JS, WebTemplate, Siebel Tools)</li>
+                            </ul>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>2013-2022</th>
+                        <th>
+                            <b><i>Oracle Siebel CRM Project Architect, Team Lead
+                                    <br>
+                                    Areon Consulting (Ukraine)
+                                </i></b>
+                            <br>
+                            I started as Junior Developer in company, in 3 years I had grown to the Project Architect.
+                            I took part in 7 projects, 3 of which I launched from 0 as an Project Architect
+                            (2 banks and a telecommunications company). I took an active part in creating the company's
+                            methodology. I trained more than 100 employees of the company, mentored at my
+                            projects more than 70 employees, 5 employees grew until Project Architects.
+                            <br>
+                            <ul>
+                                <li>decisions on business requirements', customer communication</li>
+                                <li>GAP analysis and formulation of developer tasks</li>
+                                <li>project documentation managment</li>
+                                <li>developers</li>
+                                <li>system development and customization</li>
+                                <li>developers training and probation</li>
+                            </ul>
+                        </th>
+                    </tr>
+                </table>
+            </section>
+        </section>
+        <!--Education-->
+        <section id="education" class="sect_h_300 background_grey">
+            <div class="margin_1_5 row">
+                <h2>Education</h2>
+                <div class="edu_card">
+                    <img src="images/DeavInst.jpeg" alt="Developer's Institute">
+                    <section class="edu_text">
+                        <p>2023</p>
+                        <p>Developers.Institute</p>
+                        <p>Tech Talant Accelerator Course</p>
+                    </section>
+                </div>
+                <div class="edu_card">
+                    <img src="images/Oracle.png" alt="Oracle">
+                    <section class="edu_text">
+                        <p>2012</p>
+                        <p>Oracle Certification Program</p>
+                        <p>Siebel 8 Consultant</p>
+                    </section>
+                </div>
+                <div class="edu_card">
+                    <img src="images/Politech.jpeg" alt="Charkiv Politech">
+                    <section class="edu_text">
+                        <p>2002-2009</p>
+                        <p>Kharkiv Politechnical University (Ukraine)</p>
+                        <p>Applied Mathematics</p>
+                    </section>
+                </div>
+            </div>
+        </section>
+        <!--Skills-->
+        <section id="skills">
+            <section class="margin_1_5">
+                <h2>Skills</h2>
+                <section class="skills_text">
+                <ul>
+                    <li>Programming Languages: VB_Script, e-Script, JavaScript, CSS, WebTemplate, VBA, C++</li>
+                    <li>Software: Siebel Tools, BI Publisher, PL-SQL developer, Jira</li>
+                    <li>Methodologies: Waterfall, Agile</li>
+                    <li>Languages: Ukrainian (native), Russian (fluent), English (Intermediate), Hebrew (Aleph)</li>
+                    <li>Personal: I'm good team player, fast learner, responsible, flexible, have experience in mentoring</li>
+                </ul>
+            </section>
+            </section>
+        </section>
+    </main>
+    <!--Copyrights-->
+    <footer>
+        <p id = "footer_style" class="background_grey">
+            &copy; 2023 AStar&Co &trade;
+        </p>
+    </footer>
+</body>
+</html>
